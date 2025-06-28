@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.product-box{
+  margin-top: 100px;
+}
+
+
+/*********************************/
+/******** Utility classes *******/
+/*******************************/
+.mt-1{
+  margin-top: 0.5rem;
+}
+.mt-2{
+  margin-top: 1.5rem;
+}
+.d-flex{
+  display: flex;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
